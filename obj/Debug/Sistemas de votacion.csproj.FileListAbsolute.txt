@@ -1,0 +1,11 @@
+C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas de votacion.csproj.AssemblyReference.cache
+C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas_de_votacion.Properties.Resources.resources
+C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas_de_votacion.Sistema_de_votacion.resources
+C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas de votacion.csproj.GenerateResource.cache
+C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas de votacion.csproj.CoreCompileInputs.cache
+C:\Users\54341\source\repos\Sistemas de votacion\bin\Debug\Sistemas de votacion.exe.config
+C:\Users\54341\source\repos\Sistemas de votacion\bin\Debug\Sistemas de votacion.exe
+C:\Users\54341\source\repos\Sistemas de votacion\bin\Debug\Sistemas de votacion.pdb
+C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas de votacion.exe
+C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas de votacion.pdb
+C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas_de_votacion.Habilitar_Clubes.resources
