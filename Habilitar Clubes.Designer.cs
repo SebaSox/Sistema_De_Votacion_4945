@@ -49,7 +49,7 @@ namespace Sistemas_de_votacion
             // BtnCerrar
             // 
             this.BtnCerrar.BackColor = System.Drawing.Color.Red;
-            this.BtnCerrar.Location = new System.Drawing.Point(964, 374);
+            this.BtnCerrar.Location = new System.Drawing.Point(955, 382);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(218, 133);
             this.BtnCerrar.TabIndex = 34;
@@ -60,7 +60,7 @@ namespace Sistemas_de_votacion
             // BtnReiniciar
             // 
             this.BtnReiniciar.BackColor = System.Drawing.Color.DarkOrange;
-            this.BtnReiniciar.Location = new System.Drawing.Point(964, 206);
+            this.BtnReiniciar.Location = new System.Drawing.Point(955, 214);
             this.BtnReiniciar.Name = "BtnReiniciar";
             this.BtnReiniciar.Size = new System.Drawing.Size(218, 124);
             this.BtnReiniciar.TabIndex = 35;
@@ -70,12 +70,13 @@ namespace Sistemas_de_votacion
             // BtnConfirmar
             // 
             this.BtnConfirmar.BackColor = System.Drawing.Color.LimeGreen;
-            this.BtnConfirmar.Location = new System.Drawing.Point(964, 38);
+            this.BtnConfirmar.Location = new System.Drawing.Point(955, 46);
             this.BtnConfirmar.Name = "BtnConfirmar";
             this.BtnConfirmar.Size = new System.Drawing.Size(218, 122);
             this.BtnConfirmar.TabIndex = 36;
             this.BtnConfirmar.Text = "Confirmar";
             this.BtnConfirmar.UseVisualStyleBackColor = false;
+            this.BtnConfirmar.Click += new System.EventHandler(this.BtnConfirmar_Click);
             // 
             // Habilitar_Clubes
             // 

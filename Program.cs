@@ -16,7 +16,7 @@ namespace Sistemas_de_votacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Habilitar_Clubes());
+            Application.Run(new Sistema_de_votacion());
         }
     }
 }

@@ -35,9 +35,19 @@ namespace Sistemas_de_votacion
         private void habilitarClubesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
-            Habilitar_Clubes v1 = new Habilitar_Clubes();
+            Habilitar_Clubes Clubes = new Habilitar_Clubes();
+            AddOwnedForm(Clubes);
             this.Hide();
-            v1.ShowDialog();
+            Clubes.ShowDialog();
+            this.Show();
+        }
+
+        private void BtnEnviar_Click(object sender, EventArgs e)
+        {
+            Resultados Resul = new Resultados();
+            AddOwnedForm(Resul);
+            this.Hide();
+            Resul.ShowDialog();
             this.Show();
         }
     }
