@@ -10,3 +10,7 @@ C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas de votacion.
 C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas de votacion.pdb
 C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas_de_votacion.Habilitar_Clubes.resources
 C:\Users\54341\source\repos\Sistemas de votacion\obj\Debug\Sistemas_de_votacion.Resultados.resources
+C:\Users\54341\source\repos\Sistemas de votacion\bin\Debug\intermediario.dll
+C:\Users\54341\source\repos\Sistemas de votacion\bin\Debug\Datos.dll
+C:\Users\54341\source\repos\Sistemas de votacion\bin\Debug\intermediario.pdb
+C:\Users\54341\source\repos\Sistemas de votacion\bin\Debug\Datos.pdb

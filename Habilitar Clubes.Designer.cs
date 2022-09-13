@@ -66,6 +66,7 @@ namespace Sistemas_de_votacion
             this.BtnReiniciar.TabIndex = 35;
             this.BtnReiniciar.Text = "Reiniciar";
             this.BtnReiniciar.UseVisualStyleBackColor = false;
+            this.BtnReiniciar.Click += new System.EventHandler(this.BtnReiniciar_Click);
             // 
             // BtnConfirmar
             // 

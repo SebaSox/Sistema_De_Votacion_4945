@@ -40,6 +40,7 @@ namespace Sistemas_de_votacion
             this.label4 = new System.Windows.Forms.Label();
             this.TxtConsulta = new System.Windows.Forms.TextBox();
             this.BtnEnviar = new System.Windows.Forms.Button();
+            this.TxtClubesHabilitados = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,6 +70,7 @@ namespace Sistemas_de_votacion
             this.TxtNumReu.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TxtNumReu.Name = "TxtNumReu";
             this.TxtNumReu.Size = new System.Drawing.Size(100, 27);
+            this.TxtNumReu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtNumReu_KeyPress);
             this.TxtNumReu.TextChanged += new System.EventHandler(this.FunNReu);
             // 
             // habilitarClubesToolStripMenuItem
@@ -120,7 +122,7 @@ namespace Sistemas_de_votacion
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(33, 238);
+            this.label4.Location = new System.Drawing.Point(27, 315);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 17);
             this.label4.TabIndex = 5;
@@ -128,7 +130,7 @@ namespace Sistemas_de_votacion
             // 
             // TxtConsulta
             // 
-            this.TxtConsulta.Location = new System.Drawing.Point(36, 272);
+            this.TxtConsulta.Location = new System.Drawing.Point(30, 349);
             this.TxtConsulta.Multiline = true;
             this.TxtConsulta.Name = "TxtConsulta";
             this.TxtConsulta.Size = new System.Drawing.Size(391, 118);
@@ -136,7 +138,7 @@ namespace Sistemas_de_votacion
             // 
             // BtnEnviar
             // 
-            this.BtnEnviar.Location = new System.Drawing.Point(452, 272);
+            this.BtnEnviar.Location = new System.Drawing.Point(446, 349);
             this.BtnEnviar.Name = "BtnEnviar";
             this.BtnEnviar.Size = new System.Drawing.Size(105, 118);
             this.BtnEnviar.TabIndex = 7;
@@ -144,11 +146,22 @@ namespace Sistemas_de_votacion
             this.BtnEnviar.UseVisualStyleBackColor = true;
             this.BtnEnviar.Click += new System.EventHandler(this.BtnEnviar_Click);
             // 
+            // TxtClubesHabilitados
+            // 
+            this.TxtClubesHabilitados.Enabled = false;
+            this.TxtClubesHabilitados.Location = new System.Drawing.Point(33, 148);
+            this.TxtClubesHabilitados.Multiline = true;
+            this.TxtClubesHabilitados.Name = "TxtClubesHabilitados";
+            this.TxtClubesHabilitados.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.TxtClubesHabilitados.Size = new System.Drawing.Size(511, 164);
+            this.TxtClubesHabilitados.TabIndex = 8;
+            // 
             // Sistema_de_votacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(569, 430);
+            this.ClientSize = new System.Drawing.Size(569, 504);
+            this.Controls.Add(this.TxtClubesHabilitados);
             this.Controls.Add(this.BtnEnviar);
             this.Controls.Add(this.TxtConsulta);
             this.Controls.Add(this.label4);
@@ -182,5 +195,6 @@ namespace Sistemas_de_votacion
         private System.Windows.Forms.ToolStripMenuItem habilitarClubesToolStripMenuItem;
         public System.Windows.Forms.Label LblClubesHabilitados;
         private System.Windows.Forms.Button BtnEnviar;
+        private System.Windows.Forms.TextBox TxtClubesHabilitados;
     }
 }

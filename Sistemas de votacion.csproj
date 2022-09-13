@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Herramientas.cs" />
     <Compile Include="Habilitar Clubes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +97,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\intermediario\intermediario.csproj">
+      <Project>{7ade4fb2-60a0-443b-9d63-2342a49e908e}</Project>
+      <Name>intermediario</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
